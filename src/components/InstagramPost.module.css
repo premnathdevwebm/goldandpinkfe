@@ -1,0 +1,32 @@
+.instagramgrid {
+    margin: 12px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .column1 {
+    grid-column: 1 / span 1;
+    display: flex;
+  flex-direction: column;
+  }
+  
+
+  .column2 {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .postitem {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .postitem img {
+    width: 100%;
+    height: auto;
+  }
