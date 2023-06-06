@@ -54,7 +54,7 @@
 
 .full-width-column-1 {
   grid-area: header;
-  background-image: url("./background.jpg");
+  background-image: url("./back.jpg");
   background-repeat: repeat;
   height: 70vh;
 }
