@@ -25,6 +25,11 @@
   height: 200px;
 }
 
+.heart-animation-container img{
+  width: 400%;
+  height: 350%;
+}
+
 .heart {
   width: 100px;
   height: 100px;

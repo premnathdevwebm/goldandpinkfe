@@ -32,7 +32,7 @@ const HeartAnimation = () => {
         <div className="full-width-column-1">
           <div className="heart-animation-container">
             <div className={`heart ${isPumping ? "pumping" : ""}`}>
-              <img src="/heart.png" width={475} height={495} alt="company" />
+              <img src="/heart.png" alt="company" />
             </div>
           </div>
         </div>
