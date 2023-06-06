@@ -13,7 +13,7 @@
     transform: translateX(calc(-50% - 200px)) scale(1);
   }
   50% {
-    transform: translateX(calc(-50% - 200px)) scale(1.2);
+    transform: translateX(calc(-50% - 200px)) scale(1.1);
   }
 }
 
@@ -33,7 +33,7 @@
 }
 
 .heart.pumping {
-  animation: pumping 1s ease-in-out infinite;
+  animation: pumping 2s ease-in-out infinite;
 }
 
 .grid-container {
