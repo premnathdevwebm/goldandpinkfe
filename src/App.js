@@ -58,7 +58,8 @@ const HeartAnimation = () => {
             <img src={footer}  height={328} alt="menu" />
         </div>
       </div>
-
+      <br />
+      <br />
       <TestimonialCarousel />
       <OurServices />
       <InstagramPost />
