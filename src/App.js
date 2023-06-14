@@ -40,7 +40,7 @@ const HeartAnimation = () => {
 
       <div className="rowcontainer1">
         <div className="col01">
-          <img src={menu} alt="menu" />
+          <img className="imag1" src={menu} alt="menu" />
         </div>
         <div className="col01">
           <div className="textcontent">
@@ -55,7 +55,7 @@ const HeartAnimation = () => {
               from and specialises in custom designs.
             </p>
           </div>
-            <img src={footer}  height={328} alt="menu" />
+            <img src={footer} alt="menu" />
         </div>
       </div>
       <br />
