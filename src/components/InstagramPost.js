@@ -2,12 +2,12 @@ import styles from  './InstagramPost.module.css';
 
 const InstagramGrid = () => {
   const posts = [
-    { id: 1, imageUrl: 'post1.jpg', caption: 'Caption for Post 1' },
-    { id: 2, imageUrl: 'post2.jpg', caption: 'Caption for Post 2' },
-    { id: 3, imageUrl: 'post3.jpg', caption: 'Caption for Post 3' },
-    { id: 4, imageUrl: 'post4.jpg', caption: 'Caption for Post 4' },
-    { id: 5, imageUrl: 'post5.jpg', caption: 'Caption for Post 5' },
-    { id: 6, imageUrl: 'post6.jpg', caption: 'Caption for Post 6' },
+    { id: 1, imageUrl: 'post1.jpg', caption: 'Follow Us On Instagram' },
+    { id: 2, imageUrl: 'post2.jpg', caption: '' },
+    { id: 3, imageUrl: 'post3.jpg', caption: '' },
+    { id: 4, imageUrl: 'post4.jpg', caption: '' },
+    { id: 5, imageUrl: 'post5.jpg', caption: '' },
+    { id: 6, imageUrl: 'post6.jpg', caption: 'Get In Touch' },
   ];
 
   return (
