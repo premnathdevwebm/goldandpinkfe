@@ -1,38 +1,20 @@
-import { useState, useEffect } from "react";
 import "./App.css";
 import menu from "./menu.jpg";
 import footer from "./footer.jpg";
 import VerticalSocialMedia from "./components/Verticalcomponent";
+import HeartPump from "./components/HeartPump/HeartPump";
 import TestimonialCarousel from "./components/Testimonial";
 import OurServices from "./components/OurService";
 import InstagramPost from "./components/InstagramPost";
 
 
 const HeartAnimation = () => {
-  const [isPumping, setIsPumping] = useState(false);
-
-  // Toggle the pumping animation
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIsPumping(() => true);
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
+ 
 
   return (
     <>
       <VerticalSocialMedia />
-      <div className="grid-container">
-        <div className="full-width-column-1">
-          <div className="heart-animation-container">
-            <div className={`heart ${isPumping ? "pumping" : ""}`}>
-              <img src="/heart.png" alt="company" />
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <HeartPump />
       <div className="rowcontainer1">
         <div className="col01">
           <img className="imag1" src={menu} alt="menu" />
