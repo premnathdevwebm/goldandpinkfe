@@ -3,7 +3,6 @@ import "./App.css";
 import menu from "./menu.jpg";
 import footer from "./footer.jpg";
 import VerticalSocialMedia from "./components/Verticalcomponent";
-import Chatbot from "./components/Chatbot/Chatbot";
 import TestimonialCarousel from "./components/Testimonial";
 import OurServices from "./components/OurService";
 import InstagramPost from "./components/InstagramPost";
@@ -60,7 +59,6 @@ const HeartAnimation = () => {
       <OurServices />
       <InstagramPost />
       <Footer />
-      <Chatbot />
     </>
   );
 };

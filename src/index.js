@@ -11,6 +11,7 @@ import Nail from "./nail";
 import Gallery from "./gallery";
 import ContactUs from "./contactus";
 import Header from "./components/Header/Header";
+import Chatbot from "./components/Chatbot/Chatbot";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -26,6 +27,7 @@ root.render(
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
+      <Chatbot />
     </BrowserRouter>
   </React.StrictMode>
 );
