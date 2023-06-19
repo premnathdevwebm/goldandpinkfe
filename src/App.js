@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Header from "./components/Header";
 import menu from "./menu.jpg";
 import footer from "./footer.jpg";
 import VerticalSocialMedia from "./components/Verticalcomponent";
-import Chatbot from "./components/Chatbot";
+import Chatbot from "./components/Chatbot/Chatbot";
 import TestimonialCarousel from "./components/Testimonial";
 import OurServices from "./components/OurService";
 import InstagramPost from "./components/InstagramPost";
@@ -26,9 +25,6 @@ const HeartAnimation = () => {
     <>
       <VerticalSocialMedia />
       <div className="grid-container">
-        <div className="full-width-column-0">
-          <Header />
-        </div>
         <div className="full-width-column-1">
           <div className="heart-animation-container">
             <div className={`heart ${isPumping ? "pumping" : ""}`}>

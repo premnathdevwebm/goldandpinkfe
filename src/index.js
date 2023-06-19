@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "@fontsource/roboto";
 
 import "./index.css";
 import App from "./App";
@@ -9,12 +10,14 @@ import ManiPedi from "./manipedi";
 import Nail from "./nail";
 import Gallery from "./gallery";
 import ContactUs from "./contactus";
+import Header from "./components/Header/Header";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route index path="/" element={<App />} />
         <Route path="/lashes" element={<Lashes />} />

@@ -66,6 +66,16 @@
   display: none;
 }
 
+.col01 .textcontent h2{
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.col01 .textcontent p{
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 500px) {
   .rowcontainer1 {
     width: 100vw;
@@ -89,4 +99,5 @@
     padding: 10px;
  
   }
+ 
 }
