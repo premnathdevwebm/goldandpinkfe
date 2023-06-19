@@ -6,7 +6,7 @@ import VerticalSocialMedia from "./components/Verticalcomponent";
 import TestimonialCarousel from "./components/Testimonial";
 import OurServices from "./components/OurService";
 import InstagramPost from "./components/InstagramPost";
-import Footer from "./components/Footer";
+
 
 const HeartAnimation = () => {
   const [isPumping, setIsPumping] = useState(false);
@@ -58,7 +58,6 @@ const HeartAnimation = () => {
       <TestimonialCarousel />
       <OurServices />
       <InstagramPost />
-      <Footer />
     </>
   );
 };
