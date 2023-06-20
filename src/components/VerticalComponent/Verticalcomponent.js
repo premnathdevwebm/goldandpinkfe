@@ -1,6 +1,6 @@
-import icon1 from "../iconfa1.png"
-import icon2 from "../iconfa2.png"
-import icon3 from "../iconfa3.png"
+import icon1 from "./iconfa1.png"
+import icon2 from "./iconfa2.png"
+import icon3 from "./iconfa3.png"
 
 const VerticalSocialMedia = () => {
     const containerStyle = {

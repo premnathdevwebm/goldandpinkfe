@@ -1,0 +1,32 @@
+.rowcontainer1 {
+  display: grid;
+  width: 100vw;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.col01 {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100%;
+  overflow: hidden;
+}
+.imag1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.col0101 {
+  height: 50%;
+  padding: 5px;
+}
+.col0101 h2{
+  font-style: italic;
+}
+.col0101 p{
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+.col0102 {
+  height: 50%;
+}

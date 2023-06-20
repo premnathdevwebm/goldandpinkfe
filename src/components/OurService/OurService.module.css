@@ -1,6 +1,6 @@
 .heading{
   margin: 0 auto;
-  width: 30%;
+  width: 70%;
 }
 .gridcontainer {
   margin: 0 auto;
@@ -17,7 +17,7 @@
 }
 
 .title{
-
+font-style: italic;
 }
 .view{
   display: inline-block;
@@ -35,4 +35,10 @@
   filter: grayscale(100%);
   background-color: #fff;
   color: #333;
+}
+@media (max-width: 700px) {
+  .gridcontainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
 }

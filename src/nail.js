@@ -1,14 +1,7 @@
-import React from 'react'
-
+import NailComp from "./components/NailComponent/NailComponent";
 
 const NailBar = () => {
-  return (
-    <div>
-      <div>
-      NailBar page
-      </div>
-      </div>
-  )
-}
+  return <NailComp />;
+};
 
-export default NailBar
+export default NailBar;

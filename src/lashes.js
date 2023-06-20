@@ -1,10 +1,6 @@
-
+import LashComponent from "./components/LashComponent/LashComponent";
 const Lashes = () => {
-  return (
-    <div>
-      <div>Lashes page</div>
-    </div>
-  );
+  return <LashComponent />;
 };
 
 export default Lashes;

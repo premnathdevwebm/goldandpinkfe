@@ -1,13 +1,8 @@
-import React from 'react'
+import ManiPediComp from './components/ManiPedi/ManiPedi'
 
 const ManiPedi = () => {
   return (
-    <div>
-      <div>
-      ManiPedi page
-      
-      </div>
-      </div>
+    <ManiPediComp />
   )
 }
 

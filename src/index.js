@@ -10,7 +10,7 @@ import ManiPedi from "./manipedi";
 import Nail from "./nail";
 import Gallery from "./gallery";
 import ContactUs from "./contactus";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Chatbot from "./components/Chatbot/Chatbot";
 import reportWebVitals from "./reportWebVitals";
