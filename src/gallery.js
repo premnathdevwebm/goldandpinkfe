@@ -1,14 +1,7 @@
-import React from 'react'
-
+import GalleryComp from "./components/OurGallery/OurGallery";
 
 const Gallery = () => {
-  return (
-    <div>
-      <div>
-      Gallery page
-      </div>
-      </div>
-  )
-}
+  return <GalleryComp />;
+};
 
-export default Gallery
+export default Gallery;
