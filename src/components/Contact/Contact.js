@@ -39,7 +39,6 @@ const SocialMedia = () => {
     );
   };
   
-
 const Contact = () => {
   return (
     <div>
