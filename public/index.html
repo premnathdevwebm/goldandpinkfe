@@ -1,43 +1,1518 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/heart.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html class="no-js" lang="en">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Gold&Pink</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="MobileOptimized" content="320">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Gold & Pink</title>
+  <meta name="description" content="Gold & Pink Neelankarai &amp; the best aesthetic center in chennai">
+  <!-- Disable tap highlight on IE-->
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="msapplication-TileImage" content="assets/img/touch/ms-touch-icon-144x144-precomposed.gif">
+  <!-- Add to homescreen for Chrome on Android-->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Gold &amp; Pink — Nails, Lashes &amp; Aesthetic">
+  <link rel="icon" sizes="192x192" href="assets/img/touch/chrome-touch-icon-192x192.gif">
+  <!-- Add to homescreen for Safari on iOS-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Gold &amp; Pink — Nails, Lashes &amp; Aesthetic">
+  <link rel="apple-touch-icon" href="assets/img/touch/apple-touch-icon-1.gif">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CLato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<body class="page-home animsition" id="gold&pink">
+  <div class="over-page" id="overPage"></div>
+  <!--           = mobile menu           /-->
+  <div class="panel-menu" id="panelMenu">
+    <nav class="panel-menu-nav">
+      <header class="panel-menu-header">
+        <h1>Gold & Pink</h1>
+      </header>
+      <div class="panel-menu-content"><a class="h4 panel-menu-heading js-menu-title" href="#" data-title="Menu"><span
+            class="text">Menu</span><span class="icon-back pe-7s-angle-left"></span></a>
+        <ul class="panel-list">
+          <li class="panel-list__item"><a href="#"><span>Home</span></a>
+            <ul class="panel-list__next">
+              <!-- <li class="panel-list__item"><a href="index-2.html"><span>Home static</span></a>
+                </li> -->
+              <!-- <li class="panel-list__item"><a href="index-slider.html"><span>Home slider</span></a> -->
+          </li>
+          <li class="panel-list__item"><a href="index-video.html"><span>video Tour</span></a>
+          </li>
+          <!-- <li class="panel-list__item"><a href="index-fixed-header.html"><span>Home fixed header</span></a> -->
+          </li>
+        </ul>
+        </li>
+        <li class="panel-list__item"><a href="#"><span>Services</span></a>
+          <ul class="panel-list__next">
+            <li class="panel-list__item"><a href="service-1.html"><span>Nail Bar</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-2.html"><span>Lashes</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-details-1.html"><span>Asethetic</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-details-2.html"><span>Laser Hair Removal</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-details-3.html"><span>Acne Treatment</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-details-3.html"><span>Botox</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-details-3.html"><span>Fillers</span></a>
+            </li>
+            <li class="panel-list__item"><a href="service-details-3.html"><span>Glutathione Infusion</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="panel-list__item"><a href="#"><span>Gallery</span></a>
+          <ul class="panel-list__next">
+            <li class="panel-list__item"><a href="gallery-four-column.html"><span>Photos</span></a>
+            </li>
+            <li class="panel-list__item"><a href="gallery-three-column.html"><span>Virtural Tours</span></a>
+            </li>
+            <li class="panel-list__item"><a href="gallery-three-wide-column.html"><span>YouTube testimonials </span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="panel-list__item"><a href="#"><span>Blog</span></a>
+          <ul class="panel-list__next">
+            <li class="panel-list__item"><a href="blog-post-list.html"><span>Blog posts list</span></a>
+            </li>
+            <li class="panel-list__item"><a href="blog-post-single.html"><span>Blog single post</span></a>
+            </li>
+          </ul>
+        </li>
+        <!--<li class="panel-list__item"><a href="#"><span>Rooms</span></a>
+              <ul class="panel-list__next">
+                <li class="panel-list__item"><a href="room-list.html"><span>Rooms list</span></a>
+                </li>
+                <li class="panel-list__item"><a href="room-details.html"><span>Room details</span></a>
+                </li>
+              </ul> -->
+        </li>
+        <li class="panel-list__item"><a href="#"><span>Info</span></a>
+          <ul class="panel-list__next">
+            <li class="panel-list__item"><a href="about.html"><span>About Gold & pink</span></a>
+            </li>
+            <li class="panel-list__item"><a href="contacts.html"><span>Contacts</span></a>
+            </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="panel-menu-footer">
+        <ul class="social-list">
+          <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                class="fa fa-instagram fa-stack-1x fa-inverse"></i></a></li>
+          <li><a class="fa-stack fa-lg" href="https://www.instagram.com/goldandpinkclinic" target="_blank"><i
+                class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a></li>
+          <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                class="fa fa-twitter fa-stack-1x fa-inverse"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--           end mobile menu           /-->
+  <!--           = Page Header           /-->
+  <header class="page-header" id="panelHeader">
+    <nav class="navbar navbar-default" id="navbar">
+      <div class="navbar__topline">
+        <div class="navbar-header container"><a class="navbar-brand" href="index-2.html"><img
+              class="logo svg img-responsive" src="assets/img/1_heart.gif" alt="Welcome to Gold & Pink" /></a><a
+            class="navbar__toggle-reservation button" href="#" data-toggle="modal" data-target="#modal-inquiry"><i
+              class="fa fa-bookmark-o"></i>Time is precious, Call and book your slot</a><a
+            class="menu-trigger visible-xs" id="trigger" href="#" role="button"><span
+              class="menu-trigger__elem"></span></a>
+          <ul class="social-list pull-right hidden-xs">
+            <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                  class="icon fa fa-instagram fa-stack-1x fa-inverse"></i></a></li>
+            <li><a class="fa-stack fa-lg" href="https://www.instagram.com/goldandpinkclinic" target="_blank"><i
+                  class="fa fa-circle fa-stack-2x"></i><i class="icon fa fa-facebook fa-stack-1x fa-inverse"></i></a>
+            </li>
+            <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                  class="icon fa fa-twitter fa-stack-1x fa-inverse"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar__menu">
+        <div class="container">
+          <ul class="nav navbar-nav navbar-menu hidden-xs">
+            <li><a href="#"><span>Home</span><span class="fa fa-caret-down"></span></a>
+              <ul class="dropdown-menu">
+                <!-- <li><a href="index-2.html"><span>Home static</span></a>
+                  </li>
+                  <li><a href="index-slider.html"><span>Home slider</span></a>
+                  </li>
+                  <li><a href="index-video.html"><span>Home video</span></a>
+                  </li>
+                  <li><a href="index-fixed-header.html"><span>Home fixed header</span></a>
+                  </li> -->
+              </ul>
+            </li>
+            <li><a href="#"><span>Services</span><span class="fa fa-caret-down"></span></a>
+              <ul class="dropdown-menu">
+                <li class="panel-list__item"><a href="service-1.html"><span>Nail Bar</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-2.html"><span>Lashes</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-details-1.html"><span>Asethetic</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-details-2.html"><span>Laser Hair Removal</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-details-3.html"><span>Acne Treatment</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-details-3.html"><span>Botox</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-details-3.html"><span>Fillers</span></a>
+                </li>
+                <li class="panel-list__item"><a href="service-details-3.html"><span>Glutathione Infusion</span></a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#"><span>Gallery</span><span class="fa fa-caret-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="gallery-four-column.html"><span>Photos</span></a>
+                </li>
+                <li><a href="gallery-three-column.html"><span>Videos</span></a>
+                </li>
+                <li><a href="gallery-three-wide-column.html"><span>Youtube Testimonial</span></a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#"><span>Blog</span><span class="fa fa-caret-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="blog-post-list.html"><span>Blog posts list</span></a>
+                </li>
+                <li><a href="blog-post-single.html"><span>Recent Post</span></a>
+                </li>
+              </ul>
+            </li>
+            <!-- <li><a href="#"><span>Rooms</span><span class="fa fa-caret-down"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="room-list.html"><span>Rooms list</span></a>
+                  </li>
+                  <li><a href="room-details.html"><span>Room details</span></a>
+                  </li> 
+                </ul>
+              </li> -->
+            <li><a href="#"><span>Info</span><span class="fa fa-caret-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html"><span>About Gold & Pink</span></a>
+                </li>
+                <li><a href="contacts.html"><span>Contacts</span></a>
+                </li>
+              </ul>
+            </li>
+          </ul><a class="navbar__toggle-reservation button" href="#" data-toggle="modal" data-target="#modal-inquiry"><i
+              class="fa fa-bookmark-o"></i>Time is precious, Call and book your slot</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--           end Page Header           /-->
+  <main class="page-content" id="content">
+    <!--           = section intro           /-->
+    <section class="intro-banner intro-bg" style="background-image: url(assets/img/Gp\ interior\ .JPG);">
+      <div class="intro-banner__inner">
+        <div class="extra-title">
+          <h4 class="extra-title__top">welcome to</h4>
+          <h1 style="font-family: 'Noto Naskh Arabic', sans-serif; letter-spacing: -5px;"></h1>
+          <p class="extra-title__decor"><img class="svg brand-decor" src="assets/img/gold and pink new logo.png"
+              alt="Decoration"></p>
+          <p class="small">Skin, Hair, Laser, Nails</p>
+        </div>
+      </div>
+    </section>
+    <!--           end section intro           /-->
+    <!--           ¬ features           /-->
+    <div class="hm-features">
+      <div class="container-fluid">
+        <div class="hm-features__row row">
+          <div class="hm-features__item col col-xs-6 col-sm-4">
+            <figure class="hm-features__icon"><img class="svg img-responsive"
+                src="assets/img/icons/hot-stone-massage.svg" alt="Stone massage"></figure>
+            <h2>Hydra Facia</h2>
+          </div>
+          <div class="hm-features__item col col-xs-6 col-sm-4">
+            <figure class="hm-features__icon"><img class="svg img-responsive" src="assets/img/icons/relax.svg"
+                alt="Whirlpool"></figure>
+            <h2>Botox</h2>
+          </div>
+          <div class="hm-features__item col col-xs-6 col-sm-4">
+            <figure class="hm-features__icon"><img class="svg img-responsive" src="assets/img/icons/tool.svg"
+                alt="Aromatherapy"></figure>
+            <h2>Laser Hair Removal</h2>
+          </div>
+          <div class="hm-features__item col col-xs-6 col-sm-4">
+            <figure class="hm-features__icon"><img class="svg img-responsive" src="assets/img/icons/bottle.svg"
+                alt="Oil massage"></figure>
+            <h2>Nail Bar</h2>
+          </div>
+          <div class="hm-features__item col col-xs-6 col-sm-4">
+            <figure class="hm-features__icon"><img class="svg img-responsive" src="assets/img/icons/people.svg"
+                alt="Finnish sauna"></figure>
+            <h2>Lashes</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--           end features           -->
+    <!--            gallery           -->
+    <section class="st-row st-row--gray">
+      <div class="container">
+        <div class="hr-heading rotate">
+          <h1>Gallery</h1><small>relaxing & revitalizing atmosphere</small>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="container">
+          <div class="row">
+            <div class="gallery__row js-grid-masonry">
+              <!--           * grid-sizer for regular culumns           /-->
+              <div class="grid-sizer col-xs-3"></div>
+              <!--         ¬ home-gallery-items         * /-->
+              <div class="gallery__item col-rs col-xs-12 col-sm-6"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Welcome to gold and pink.jpeg"><img class="img-responsive" src="assets/img/Welcome to gold and pink.jpeg" alt="Gold&Pink chennai">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Nails (1).jpeg"><img class="img-responsive" src="assets/img/Nails (1).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Facial (1).jpeg"><img class="img-responsive" src="assets/img/Facial (1).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Facial (2).jpeg"><img class="img-responsive" src="assets/img/Facial (2).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Facial (3).jpeg"><img class="img-responsive" src="assets/img/Facial (3).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Facial (4).jpeg"><img class="img-responsive" src="assets/img/Facial (4).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Nails (2).jpeg"><img class="img-responsive" src="assets/img/Nails (2).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-12 col-sm-6"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Spa (1).jpeg"><img class="img-responsive" src="assets/img/Spa (1).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Nails (4).jpeg"><img class="img-responsive" src="assets/img/Nails (4).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link" href="assets/img/Nails (3).jpeg"><img class="img-responsive" src="assets/img/Nails (3).jpeg" alt="#">
+                  <div class="overlay"></div></a></div>
+    <!-- <section class="st-row st-row--gray">
+      <div class="container">
+        <div class="hr-heading rotate">
+          <h1>Gallery</h1><small>relaxing & revitalizing atmosphere</small>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="container">
+          <div class="row">
+            <div class="gallery__row js-grid-masonry"> -->
+              <!--            grid-sizer for regular culumns           -->
+             <!-- <div class="grid-sizer col-xs-3"></div>-->
+              <!--          home-gallery-items          -->
+              <!-- <div class="gallery__item col-rs col-xs-12 col-sm-6"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Welcome to gold and pink.jpeg"><img class="img-responsive"
+                    src="assets/img/Welcome to gold and pink.jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Nails (2).jpeg"><img class="img-responsive" src="assets/img/Nails (2).jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Spa (2).jpeg"><img class="img-responsive" src="assets/img/Spa (2).jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Spa (3).jpeg"><img class="img-responsive" src="assets/img/Spa (3).jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Spa (4).jpeg"><img class="img-responsive" src="assets/img/Spa (4).jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Lashesh (1).jpeg"><img class="img-responsive" src="assets/img/Lashesh (1).jpeg"
+                    alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Facial (1).jpeg"><img class="img-responsive" src="assets/img/Facial (1).jpeg"
+                    alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-12 col-sm-6"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Nails (1).jpeg"><img class="img-responsive" src="assets/img/Nails (1).jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/upload/full/spa-agate.jpg"><img class="img-responsive"
+                    src="assets/img/Lashesh (3).jpeg" alt="#">
+                  <div class="overlay"></div>
+                </a></div>
+              <div class="gallery__item col-rs col-xs-6 col-sm-3"><a class="gallery__img-wrap js-gallery-link"
+                  href="assets/img/Lashesh (4).jpeg"><img class="img-responsive" src="assets/img/Lashesh (4).jpeg"
+                    alt="#">
+                  <div class="overlay"></div>
+                </a></div> -->
+              <!--         end home-gallery-items         /-->
+            </div>
+          </div>
+          <!--            button load           -->
+          <div class="btn-wrap"><a class="btn btn--warn" href="#">Load more</a></div>
+        </div>
+      </div>
+    </section>
+    <!--           end gallery           -->
+    <!--           statistic           -->
+    <div class="hm-stat st-row st-row--bg" style="background-color: lightpink;">
+      <div class="position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 hm-stat__item" style="color: black;">
+              <div class="stat-num" style="color: black;"><span class="js-counter">3550</span></div>
+              <h3 class="hm-stat__title stat-text">happy clients</h3>
+            </div>
+            <div class="col-sm-3 hm-stat__item" style="color: black;">
+              <div class="stat-num" style="color: black;"><span class="js-counter">119</span></div>
+              <h3 class="hm-stat__title stat-text">Lashes</h3>
+            </div>
+            <div class="col-sm-3 hm-stat__item" style="color: black;">
+              <div class="stat-num" style="color: rgb(41, 17, 17);"><span class="js-counter">2500</span></div>
+              <h3 class="hm-stat__title stat-text">Hair Transplant</h3>
+            </div>
+            <div class="col-sm-3 hm-stat__item" style="color: black;">
+              <div class="stat-num" style="color: black;"><span class="js-counter">6582</span></div>
+              <h3 class="hm-stat__title stat-text">Hydra Facial</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!--<div class="hm-stat st-row st-row--bg">
+      <div class="bg-pattern">
+        <div class="jarallax prlx" style="background-image: url(assets/img/bg-section.png);"></div>
+      </div>
+      <div class="position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 hm-stat__item">
+              <div class="stat-num"><span class="js-counter">350</span></div>
+              <h3 class="hm-stat__title stat-text">happy clients served</h3>
+            </div>
+            <div class="col-sm-3 hm-stat__item">
+              <div class="stat-num"><span class="js-counter">119</span></div>
+              <h3 class="hm-stat__title stat-text">Lashes</h3>
+            </div>
+            <div class="col-sm-3 hm-stat__item">
+              <div class="stat-num"><span class="js-counter">2500</span></div>
+              <h3 class="hm-stat__title stat-text">Laser Hair Removal</h3>
+            </div>
+            <div class="col-sm-3 hm-stat__item">
+              <div class="stat-num"><span class="js-counter">6582</span></div>
+              <h3 class="hm-stat__title stat-text">Hydra Facial</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--           end statistic           /-->
+    <!--           ¬ our clients           /-->
+    <section class="our-clients st-row intro-bg st-row--hr" id="ourClients"
+      style="background-image: url(assets/img/Spa\ \(1\).jpeg);">
+      <div class="st-row__inner">
+        <div class="overlay"></div>
+        <div class="our-clients__wrapper container">
+          <!--           ¬ carousel           /-->
+          <div class="our-clients-carousel owl-theme owl-carousel js-client-carousel">
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>Awesome service</h3>
+                  <p>The facility is beyond gorgeous.
+                    Its very modern and clean.
+                    THEY CARE & take the time to make sure youre getting what you came for.
+                    I would highly recommend anyone coming here.
+                    10/10 for the interiors !!</p>
+                  <footer>
+                    <cite title="Hannah Rebecca">Hannah Rebecca</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="Outstanding service..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>People are very hospitable and sweet</h3>
+                  <p>My experience here was just amazing💖. The place was very warm and welcoming I would say heaven.
+                    awesome ambience . People are very hospitable and sweet. Got done with my nail extension and gel
+                    polishing. Completely impressed with the work... </p>
+                  <footer>
+                    <cite title="Vuppalapati Harini">Vuppalapati Harini</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="really love that spa salon..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>helpful and friendly staff...</h3>
+                  <p>My sister and I came to get our nail extensions done we both are leaving with a big smile on our
+                    face :) we loved it</p>
+                  <footer>
+                    <cite title="Keerthi">Keerthi</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="helpful and friendly staff..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>Outstanding service...</h3>
+                  <p>Spot to many it four bred soon well to. Or am promotion in no departure abilities. Whatever
+                    landlord yourself at by pleasure of children be.</p>
+                  <footer>
+                    <cite title="Stuart, valued cllient">Stuart, valued cllient</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="Outstanding service..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>really love that spa salon...</h3>
+                  <p>Satisfied pretended mr on do determine by. Old post took and ask seen fact rich. Man entrance
+                    settling believed eat joy. Money as drift begin on to. Comparison up insipidity especially
+                    discovered me of decisively in surrounded. Points six way enough she its father.</p>
+                  <footer>
+                    <cite title="Jane Parker, valued cllient">Jane Parker, valued cllient</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="really love that spa salon..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>helpful and friendly staff...</h3>
+                  <p>Or neglected agreeable of discovery concluded oh it sportsman. Week to time in john. Son elegance
+                    use weddings separate. Ask too matter formed county wicket oppose talent. He immediate sometimes or
+                    to</p>
+                  <footer>
+                    <cite title="Mark Smith, valued cllient">Mark Smith, valued cllient</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="helpful and friendly staff..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>Outstanding service...</h3>
+                  <p>Gold & Pink is a one-stop-shop for all things aesthetic. The range of services they offer is
+                    impressive – from skincare to hair removal. The staff is attentive, and the results are consistently
+                    fantastic..</p>
+                  <footer>
+                    <cite title="Divya Suresh">Divya suresh</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="Outstanding service..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>really love that spa salon...</h3>
+                  <p>The ambiance is soothing, and the nail technicians are incredibly skilled, The technicians are
+                    skilled and take the time to customize the look you desire</p>
+                  <footer>
+                    <cite title="Aishwarya">Aishwarya</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="really love that spa salon..."></div>
+            </div>
+            <div class="our-clients__item">
+              <div class="our-clients__main">
+                <blockquote>
+                  <h3>helpful and friendly staff...</h3>
+                  <p>Gold & Pink is my go-to spot for trendy and long-lasting nail art. The artists here are true
+                    professionals, and they keep up with the latest trends. </p>
+                  <footer>
+                    <cite title="Priya Dharshini">Priya Dharshini</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="our-clients__thumb"><img class="img-responsive" src="assets/img/upload/testimonials/user1.png"
+                  alt="helpful and friendly staff..."></div>
+            </div>
+          </div>
+          <!--           ¬ control panel           /-->
+          <div class="control-panel control-panel--mobile">
+            <button class="control-panel__nav prev"><i class="fa fa-angle-left"></i></button>
+            <button class="control-panel__nav next"><i class="fa fa-angle-right"></i></button>
+            <div class="control-panel__dots js-pagination"></div>
+          </div>
+          <!--           end control panel           /-->
+        </div>
+      </div>
+    </section>
+    <!--           end our clients           /-->
+    <!--           = section video           /-->
+    <div class="section-video st-row st-row--gray st-row--hr">
+      <div class="container no-gutters-sm">
+        <div class="video-contain rounder-right">
+          <!--           * preview screen           /-->
+          <div class="video-contain__preview"
+            style="background-image: url(assets/img/upload/intro/Gp\ interior\ .JPG);">
+            <!-- <div class="overlay overlay--light"></div> -->
+            <div class="flag flag--top-right">video tour</div>
+          </div>
+          <!--           * iframe           /-->
+          <div class="video-contain__wrapper">
+            <iframe src="https://www.youtube.com/embed/ny6pN5OZFIg?autoplay=1&loop=1&controls=0&rel=0&wmode=transparent"
+              allowfullscreen allow="autoplay; encrypted-media"></iframe>
+
+            <div>
+              <!-- Volume Controls -->
+              <label for="volumeControl">Volume:</label>
+              <input type="range" id="volumeControl" name="volumeControl" min="0" max="100" step="1" value="50"
+                oninput="setVolume(this.value)" />
+            </div>
+
+            <script>
+              // JavaScript function to set the volume of the embedded YouTube video
+              function setVolume(volume) {
+                var iframe = document.querySelector("iframe");
+                iframe.contentWindow.postMessage(
+                  '{"event":"command","func":"unMute","args":""}',
+                  "*"
+                );
+                iframe.contentWindow.postMessage(
+                  '{"event":"command","func":"setVolume","args":' + volume + "}",
+                  "*"
+                );
+              }
+            </script>
+
+
+            <!--<iframe
+              data-id="https://www.youtube.com/embed/3ET1wM5qUpM?&amp;autoplay=1&amp;loop=1&amp;controls=0&amp;rel=0&amp;wmode=transparent"
+              src="https://www.youtube.com/watch?app=desktop&v=ny6pN5OZFIg" allowfullscreen></iframe> -->
+          </div>
+          <!--           * controls           /-->
+          <div class="video-controls">
+            <button class="btn-play"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--           end section video           /-->
+    <!--           = reservation form           /-->
+    <section class="st-row" id="reservation">
+      <div class="container">
+        <div class="hr-heading rotate">
+          <h1>Reservation</h1><small>book your unforgettable pleasure time</small>
+        </div>
+        <div class="row">
+          <!--           ¬ form           /-->
+          <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 item-sm">
+            <form class="booking-form js-form-booking" action="#" method="POST" autocomplete="off">
+              <div class="row row-sm">
+                <div class="form-group col-xs-12">
+                  <label class="label-control">Your name <span class="label-warn">*</span></label>
+                  <input class="form-control" type="text" name="name" required>
+                </div>
+                <div class="form-group col-xs-12">
+                  <label class="label-control">Your e-mail <span class="label-warn">*</span></label>
+                  <input class="form-control" type="email" name="email" required>
+                </div>
+                <!--         datepicker/clockpicker         *-->
+                <div class="form-group col-xs-12">
+                  <div class="row row-sm input-daterange">
+                    <div class="col-xs-6">
+                      <label class="label-control">date from <span class="label-warn">*</span></label>
+                      <input class="form-control datepicker" data-date-format="mm/dd/yyyy" name="date_from" required>
+                    </div>
+                    <div class="col-xs-6">
+                      <label class="label-control">date to <span class="label-warn">*</span></label>
+                      <input class="form-control datepicker" data-date-format="mm/dd/yyyy" name="date_to" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-xs-12">
+                  <div class="row row-sm">
+                    <div class="col-xs-6">
+                      <label class="label-control">time <span class="label-warn">*</span></label>
+                      <input class="form-control clockpicker js-input-time" type="text" name="time_from" required>
+                    </div>
+                    <div class="col-xs-6">
+                      <label class="label-control">time <span class="label-warn">*</span></label>
+                      <input class="form-control clockpicker js-input-time" type="text" name="time_to" required>
+                    </div>
+                  </div>
+                </div>
+                <!--           ¬ number-of-reversed           /-->
+                <div class="form-group col-xs-12">
+                  <label class="label-control"># people <span class="label-warn">*</span></label>
+                  <div class="select-reserved">
+                    <div class="row row-sm">
+                      <div class="form-group col col-xs-6">
+                        <select class="js-select-reserved">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                        </select>
+                      </div>
+                      <div class="form-group col col-xs-6">
+                        <input class="select-reserved__check js-reserved-check" id="checkReset" type="checkbox">
+                        <label for="checkReset"><i class="fa fa-check"></i><span class="span">I have more than 6 people
+                            in my party</span></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--           end number-of-reversed           /-->
+                <div class="col-xs-12">
+                  <div class="form-group">
+                    <label class="label-control">Special requests</label>
+                    <textarea class="form-control" rows="10" name="message"></textarea>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="booking-form__submit col-auto">
+                    <button class="btn btn--darker" type="submit">make reservation</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!--           end form           /-->
+          <!--           = contacts           /-->
+          <div class="col-auto col-sm-6 col-md-5 col-lg-4">
+            <div class="contacts-list">
+              <p class="contacts-list__top">We will be pleased to serve you. If you have any questions or suggestions
+                regarding Gold & Pink Saloon, please use our contacts bellow.</p>
+              <div class="contacts-list__main">
+                <h3>Reception desk</h3>
+                <p><a href="tel:+610883414603">+91 98882 14441</a></p>
+                <h3>Administration</h3>
+                <p><a href="tel:+610883886352">+91 98886 34443</a></p>
+                <h3>E-mail</h3>
+                <p><a href="mailto:info@goldandpink.in">info@goldandpink.in</a></p>
+                <h3>Address</h3>
+                <address class="address">M.S. COASTLINE, DOOR NO. 60, PLOT NO.
+                  17 KABALEESHWARAR NAGAR,
+                  NEELANGARAI,
+                  EASTCOAST ROAD
+                  CHENNAI 600 041<br>Chennai<br>India</address>
+              </div>
+            </div>
+            <!--           = share           /-->
+            <div class="contacts-share">
+              <h3>Social media</h3>
+              <ul class="social-list">
+                <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                      class="icon fa fa-instagram fa-stack-1x fa-inverse"></i></a></li>
+                <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                      class="icon fa fa-facebook fa-stack-1x fa-inverse"></i></a></li>
+                <li><a class="fa-stack fa-lg" href="#"><i class="fa fa-circle fa-stack-2x"></i><i
+                      class="icon fa fa-twitter fa-stack-1x fa-inverse"></i></a></li>
+              </ul>
+            </div>
+            <!--           end share           /-->
+          </div>
+          <!--           end contacts           /-->
+        </div>
+      </div>
+    </section>
+    <!--           end reservation form           /-->
+    <!--           = about           /-->
+    <div class="hm-about st-row st-row--hr st-row--bg">
+      <div class="bg-pattern">
+        <div class="jarallax prlx" style="background-image: url(assets/img/Gp\ interior\ .JPG);"></div>
+      </div>
+      <div class="position-relative">
+        <div class="container">
+          <div class="hm-about__main">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="hm-about__info">
+                  <section class="hm-about__heading">
+                    <h2>About us</h2>
+                  </section>
+                  <p>Welcome to Gold & Pink, where beauty meets tranquility. We take pride in providing a haven of
+                    relaxation with our inviting atmosphere and comfortable seating. Our skilled nail technicians are
+                    not just experts; they are enthusiasts dedicated to staying abreast of the latest trends and
+                    techniques in nail care.</p>
+                  <p>At Gold & Pink, we prioritize the well-being of your nails. We exclusively use high-quality
+                    products, ensuring a gentle touch that not only enhances your nails' aesthetic but also promotes
+                    their health. Our commitment extends to delivering results that stand the test of time, leaving you
+                    with nails that are both beautiful and enduring.</p>
+                  <div class="hm-about__btn">
+                    <button class="btn btn--darker" data-toggle="modal" data-target="#modal-inquiry">reservation
+                      inquiry</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <ul class="hm-about__list-mode">
+                  <li><span>Monday</span><span>10:00 — 20:00</span></li>
+                  <li><span>Tuesday</span><span>10:00 — 20:00</span></li>
+                  <li><span>Wednesday</span><span>10:00 — 20:00</span></li>
+                  <li><span>Thursday</span><span>10:00 — 20:00</span></li>
+                  <li><span>Friday</span><span>10:00 — 20:00</span></li>
+                  <li><span>Saturday</span><span>10:00 — 20:00</span></li>
+                  <li><span>Sunday</span><span>10:00 — 20:00</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--           end about           /-->
+    <!--           = carousel spa-menu           /-->
+    <section class="spa-menu st-row">
+      <div class="container">
+        <div class="hr-heading rotate">
+          <h1>Our Services</h1><small>Discover your inner self</small>
+        </div>
+        <!--           ¬ carousel           /-->
+        <div class="spa-menu__carousel swiper-container js-spa-menu-carousel">
+          <div class="swiper-wrapper">
+            <div class="spa-menu__slide swiper-slide">
+              <!--<h2>Packages</h2>-->
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Hair Transplant</h3>
+                      <!--<span
+                        class="spa-menu__cost pull-right">Rs1300
+                        / 30 min.</span>-->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_1.jpg" alt="mani pedi" /></figure>
+                    <p>Indulge in the ultimate pampering experience with our exquisite Manicure and Pedicure services.
+                      At Gold & Pink, we redefine nail care with precision and luxury.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Nail Bar</h3>
+                      <!--<span class="spa-menu__cost pull-right">Rs115 /
+                        60 min.</span> -->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_2.jpg" alt="Nail Bar" /></figure>
+                    <p>Step into a world of artistic expression and self-care at Gold & Pink's Nail Bar. Our dedicated
+                      space is not just a salon—it's a canvas for creating beautiful and personalized nail art</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">Know More</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Mani Pedi Bliss</h3>
+                      <!--<span
+                        class="spa-menu__cost pull-right">Rs 2500 / 30 min.</span> -->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_4.jpg" alt="Hair Transplant" /></figure>
+                    <p>Ideal to energise the skin and help break down cellulite with the antioxidant properties of
+                      Bellefontaine Vital Massage oil, a perfect blend of apricot, sweet orange and lemon essential
+                      oils.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">Know More</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Laser Mach</h3>
+                      <!--<span class="spa-menu__cost pull-right">Rs1400 /
+                        60 min.</span>-->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_6.jpg" alt="Laser Mach" /></figure>
+                    <p>Our advanced laser treatments are designed to address various skin concerns, promoting a rejuvenated and radiant complexion..</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Lashes</h3>
+                      <!--<span class="spa-menu__cost pull-right">Rs2400 /
+                        80 min.</span> -->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_3.jpg" alt="gold and pink chennai" /></figure>
+                    <p>Experience the allure of captivating eyes with our expert lash services at Gold & Pink. Our lash
+                      specialists are dedicated to enhancing your natural beauty with precision and care</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Hydra Facial</h3>
+                      <!--<span
+                        class="spa-menu__cost pull-right">Rs1700 / 80 min.</span> -->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_5.jpg" alt="Stone" /></figure>
+                    <p>Revitalize your skin and unveil a radiant glow with our HydraFacial services at Gold & Pink. Our
+                      skilled estheticians are committed to delivering a rejuvenating experience that leaves your skin
+                      looking and feeling refreshed.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Botox & Fillers</h3>
+                      <!--<span
+                        class="spa-menu__cost pull-right">Rs1700 / 80 min.</span> -->
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_5.jpg" alt="Stone" /></figure>
+                    <p>Discover the art of graceful aging and achieve a timeless beauty with our Botox and Fillers
+                      services at Gold & Pink, Also Revitalize and restore volume with our premium filler treatments.
+                      Whether you seek fuller lips, lifted cheeks, or softened lines, our skilled professionals use
+                      high-quality fillers to enhance your features with natural-looking results.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <!-- <div class="spa-banner">
+                    <div class="flag flag--top-right"><span>smart deal</span></div>
+                    <div class="spa-banner__img rounder-right"><a class="spa-banner__link sp-zoom-in"
+                        href="room-list.html"><img class="img-responsive"
+                          src="assets/img/upload/categories/packages.jpg" alt="Packages" /></a></div>
+                    <ul class="spa-banner__bottom cf">
+                      <li class="pull-left"><span class="spa-banner__title">Packages</span></li>
+                      <li class="pull-right"><span class="disabled">Rs2220</span><span
+                          class="spa-banner__sale">Rs2220</span>-->
+                  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="spa-menu__slide swiper-slide">
+            <!-- <h2>Signature massage experience</h2>
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Nails</h3><span class="spa-menu__cost pull-right">$170 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_5.jpg" alt="Stone" /></figure>
+                    <p>A stone massage uses cold or water-heated stones to apply pressure and heat to the body. Stones
+                      coated in oil can also be used by the therapist delivering various massaging strokes. The hot
+                      stones used are commonly Basalt stones (or lava rocks) which over time have become extremely
+                      polished and smooth. As the stones are placed along the recipient's back, they help to retain heat
+                      which then deeply penetrates into the muscles.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Lashesh</h3><span class="spa-menu__cost pull-right">$140 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_3.jpg" alt="Thai" /></figure>
+                    <p>Generally speaking, givers of modern Thai massage operate on the hypothesis that the body is
+                      permeated with &quot;lom&quot;, or &quot;air&quot;, which is inhaled into the lungs and
+                      subsequently travels throughout the body along 72,000 pathways called &quot;sen&quot;, which
+                      therapists manipulate manually.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Laser Hair Removal</h3><span
+                        class="spa-menu__cost pull-right">$90 / 30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_4.jpg" alt="Anti-cellulite" /></figure>
+                    <p>Ideal to energise the skin and help break down cellulite with the antioxidant properties of
+                      Bellefontaine Vital Massage oil, a perfect blend of apricot, sweet orange and lemon essential
+                      oils.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Acne Treatment</h3><span
+                        class="spa-menu__cost pull-right">$140 / 60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_6.jpg" alt="Tantric" /></figure>
+                    <p>A massage technique popularized by the neotantra movement, and drawing on modern interpretations
+                      of tantra.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Acne Treatment</h3><span
+                        class="spa-menu__cost pull-right">$140 / 60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_6.jpg" alt="Tantric" /></figure>
+                    <p>A massage technique popularized by the neotantra movement, and drawing on modern interpretations
+                      of tantra.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Shiatsu</h3><span class="spa-menu__cost pull-right">$130 /
+                        30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_1.jpg" alt="Shiatsu" /></figure>
+                    <p>A form of physical therapy for the whole body. Shiatsu techniques include massages with fingers,
+                      thumbs, feet and palms; assisted stretching; and joint manipulation and mobilization.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Swedish</h3><span class="spa-menu__cost pull-right">$115 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_2.jpg" alt="Swedish" /></figure>
+                    <p>The most widely recognized and commonly used category of massage is the Swedish massage. Swedish
+                      massage has shown to be helpful in reducing pain, joint stiffness, and improving function in
+                      patients with osteoarthritis of the knee over a period of eight weeks.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-banner">
+                    <div class="flag flag--top-right"><span>smart deal</span></div>
+                    <div class="spa-banner__img rounder-right"><a class="spa-banner__link sp-zoom-in"
+                        href="room-list.html"><img class="img-responsive"
+                          src="assets/img/upload/categories/massages.jpg" alt="Couples Massage" /></a></div>
+                    <ul class="spa-banner__bottom cf">
+                      <li class="pull-left"><span class="spa-banner__title">Couples Massage</span></li>
+                      <li class="pull-right"><span class="disabled">$320</span><span
+                          class="spa-banner__sale">$220</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="spa-menu__slide swiper-slide">
+              <h2>Aromatherapy</h2>
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Swedish</h3><span class="spa-menu__cost pull-right">$115 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_2.jpg" alt="Swedish" /></figure>
+                    <p>The most widely recognized and commonly used category of massage is the Swedish massage. Swedish
+                      massage has shown to be helpful in reducing pain, joint stiffness, and improving function in
+                      patients with osteoarthritis of the knee over a period of eight weeks.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Shiatsu</h3><span class="spa-menu__cost pull-right">$130 /
+                        30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_1.jpg" alt="Shiatsu" /></figure>
+                    <p>A form of physical therapy for the whole body. Shiatsu techniques include massages with fingers,
+                      thumbs, feet and palms; assisted stretching; and joint manipulation and mobilization.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Thai</h3><span class="spa-menu__cost pull-right">$140 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_3.jpg" alt="Thai" /></figure>
+                    <p>Generally speaking, givers of modern Thai massage operate on the hypothesis that the body is
+                      permeated with &quot;lom&quot;, or &quot;air&quot;, which is inhaled into the lungs and
+                      subsequently travels throughout the body along 72,000 pathways called &quot;sen&quot;, which
+                      therapists manipulate manually.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Tantric</h3><span class="spa-menu__cost pull-right">$140 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_6.jpg" alt="Tantric" /></figure>
+                    <p>A massage technique popularized by the neotantra movement, and drawing on modern interpretations
+                      of tantra.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Stone</h3><span class="spa-menu__cost pull-right">$170 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_5.jpg" alt="Stone" /></figure>
+                    <p>A stone massage uses cold or water-heated stones to apply pressure and heat to the body. Stones
+                      coated in oil can also be used by the therapist delivering various massaging strokes. The hot
+                      stones used are commonly Basalt stones (or lava rocks) which over time have become extremely
+                      polished and smooth. As the stones are placed along the recipient's back, they help to retain heat
+                      which then deeply penetrates into the muscles.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Anti-cellulite</h3><span
+                        class="spa-menu__cost pull-right">$90 / 30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_4.jpg" alt="Anti-cellulite" /></figure>
+                    <p>Ideal to energise the skin and help break down cellulite with the antioxidant properties of
+                      Bellefontaine Vital Massage oil, a perfect blend of apricot, sweet orange and lemon essential
+                      oils.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-banner">
+                    <div class="flag flag--top-right"><span>smart deal</span></div>
+                    <div class="spa-banner__img rounder-right"><a class="spa-banner__link sp-zoom-in"
+                        href="room-list.html"><img class="img-responsive"
+                          src="assets/img/upload/categories/aromatherapy.jpg" alt="Aromatherapy" /></a></div>
+                    <ul class="spa-banner__bottom cf">
+                      <li class="pull-left"><span class="spa-banner__title">Aromatherapy</span></li>
+                      <li class="pull-right"><span class="disabled">$250</span><span
+                          class="spa-banner__sale">$199</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="spa-menu__slide swiper-slide">
+              <h2>Make</h2>
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Swedish</h3><span class="spa-menu__cost pull-right">$115 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_2.jpg" alt="Swedish" /></figure>
+                    <p>The most widely recognized and commonly used category of massage is the Swedish massage. Swedish
+                      massage has shown to be helpful in reducing pain, joint stiffness, and improving function in
+                      patients with osteoarthritis of the knee over a period of eight weeks.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Stone</h3><span class="spa-menu__cost pull-right">$170 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_5.jpg" alt="Stone" /></figure>
+                    <p>A stone massage uses cold or water-heated stones to apply pressure and heat to the body. Stones
+                      coated in oil can also be used by the therapist delivering various massaging strokes. The hot
+                      stones used are commonly Basalt stones (or lava rocks) which over time have become extremely
+                      polished and smooth.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Anti-cellulite</h3><span
+                        class="spa-menu__cost pull-right">$90 / 30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_4.jpg" alt="Anti-cellulite" /></figure>
+                    <p>Ideal to energise the skin and help break down cellulite with the antioxidant properties of
+                      Bellefontaine Vital Massage oil, a perfect blend of apricot, sweet orange and lemon essential
+                      oils.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Shiatsu</h3><span class="spa-menu__cost pull-right">$130 /
+                        30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_1.jpg" alt="Shiatsu" /></figure>
+                    <p>A form of physical therapy for the whole body. Shiatsu techniques include massages with fingers,
+                      thumbs, feet and palms; assisted stretching; and joint manipulation and mobilization.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Thai</h3><span class="spa-menu__cost pull-right">$140 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_3.jpg" alt="Thai" /></figure>
+                    <p>Generally speaking, givers of modern Thai massage operate on the hypothesis that the body is
+                      permeated with &quot;lom&quot;, or &quot;air&quot;, which is inhaled into the lungs and
+                      subsequently travels throughout the body along 72,000 pathways called &quot;sen&quot;, which
+                      therapists manipulate manually.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Tantric</h3><span class="spa-menu__cost pull-right">$140 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_6.jpg" alt="Tantric" /></figure>
+                    <p>A massage technique popularized by the neotantra movement, and drawing on modern interpretations
+                      of tantra.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-banner">
+                    <div class="flag flag--top-right"><span>smart deal</span></div>
+                    <div class="spa-banner__img rounder-right"><a class="spa-banner__link sp-zoom-in"
+                        href="room-list.html"><img class="img-responsive" src="assets/img/upload/categories/make.jpg"
+                          alt="Make" /></a></div>
+                    <ul class="spa-banner__bottom cf">
+                      <li class="pull-left"><span class="spa-banner__title">Make</span></li>
+                      <li class="pull-right"><span class="disabled">$200</span><span
+                          class="spa-banner__sale">$150</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+            <!-- <div class="spa-menu__slide swiper-slide"> -->
+            <!--  <h2>Bridal</h2>
+              <div class="row">-->
+            <!--<div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Shiatsu</h3><span class="spa-menu__cost pull-right">$130 /
+                        30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_1.jpg" alt="Shiatsu" /></figure>
+                    <p>A form of physical therapy for the whole body. Shiatsu techniques include massages with fingers,
+                      thumbs, feet and palms; assisted stretching; and joint manipulation and mobilization.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Swedish</h3><span class="spa-menu__cost pull-right">$115 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_2.jpg" alt="Swedish" /></figure>
+                    <p>The most widely recognized and commonly used category of massage is the Swedish massage. Swedish
+                      massage has shown to be helpful in reducing pain, joint stiffness, and improving function in
+                      patients with osteoarthritis of the knee over a period of eight weeks.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Anti-cellulite</h3><span
+                        class="spa-menu__cost pull-right">$90 / 30 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_4.jpg" alt="Anti-cellulite" /></figure>
+                    <p>Ideal to energise the skin and help break down cellulite with the antioxidant properties of
+                      Bellefontaine Vital Massage oil, a perfect blend of apricot, sweet orange and lemon essential
+                      oils.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                </div>-->
+            <!--<div class="col-xs-12 col-md-6">
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Stone</h3><span class="spa-menu__cost pull-right">$170 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_5.jpg" alt="Stone" /></figure>
+                    <p>A stone massage uses cold or water-heated stones to apply pressure and heat to the body. Stones
+                      coated in oil can also be used by the therapist delivering various massaging strokes. The hot
+                      stones used are commonly Basalt stones (or lava rocks) which over time have become extremely
+                      polished and smooth.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Thai</h3><span class="spa-menu__cost pull-right">$140 / 80
+                        min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_3.jpg" alt="Thai" /></figure>
+                    <p>Generally speaking, givers of modern Thai massage operate on the hypothesis that the body is
+                      permeated with &quot;lom&quot;, or &quot;air&quot;, which is inhaled into the lungs and
+                      subsequently travels throughout the body along 72,000 pathways called &quot;sen&quot;, which
+                      therapists manipulate manually.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div>
+                  <div class="spa-menu__item cf">
+                    <div class="spa-menu__heading cf">
+                      <h3 class="spa-menu__title pull-left">Tantric</h3><span class="spa-menu__cost pull-right">$140 /
+                        60 min.</span>
+                    </div>
+                    <figure class="spa-menu__thumb"><img class="img-responsive"
+                        src="assets/img/upload/categories/spa-item_6.jpg" alt="Tantric" /></figure>
+                    <p>A massage technique popularized by the neotantra movement, and drawing on modern interpretations
+                      of tantra.</p>
+                    <p><a class="spa-menu__item-more btn-link text-warning text-uppercase"
+                        href="service-details-1.html">More details</a></p>
+                  </div> 
+                </div> -->
+          </div>
+        </div>
+      </div>
+      </div>
+      <!--           ¬ control tabs           /-->
+      <!-- <div class="control-panel">
+          <button class="control-panel__nav prev js-spa-menu-prev"><i class="fa fa-angle-left"></i></button>
+          <button class="control-panel__nav next js-spa-menu-next"><i class="fa fa-angle-right"></i></button>
+          <div class="spa-menu__nav swiper-container js-spa-menu-nav">
+            <div class="swiper-wrapper">
+              <div class="spa-menu__nav-item swiper-slide">
+                <h4>Packages</h4>
+              </div>
+              <div class="spa-menu__nav-item swiper-slide">
+                <h4>massages</h4>
+              </div>
+              <div class="spa-menu__nav-item swiper-slide">
+                <h4>Aromatherapy</h4>
+              </div>
+              <div class="spa-menu__nav-item swiper-slide">
+                <h4>Make</h4>
+              </div>
+              <div class="spa-menu__nav-item swiper-slide">
+                <h4>bridal</h4>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      <!--           end control tabs           /-->
+      </div>
+    </section>
+    <!--           end carousel spa-menu           /-->
+    <!--           ¬ map           /-->
+    <div style="text-align: center; overflow: hidden;">
+      <div style="position: relative; width: 100%; padding-bottom: auto;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3263998747234!2d80.25265707468685!3d12.950953715331389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9b73a03b57%3A0xc58718f014312f91!2sGold%20%26%20Pink!5e0!3m2!1sen!2sin!4v1702113762190!5m2!1sen!2sin"
+          width="100%" height="100%" style="border:1px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+
+
+
+    <!-- <div class="contacts-map" id="map" data-title="Gold & Pink" data-label="./assets/img/label.png"
+      data-center="{&quot;lat&quot;: 12.950110, &quot;lng&quot;: 80.245290}"
+      data-cords="{&quot;lat&quot;: 12.950110, &quot;lng&quot;: 80.245290}"></div> -->
+    <!--           end map           /-->
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <!--           ¬ page-footer__contacts           /-->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <h4 class="page-footer__title">contacts</h4>
+          <ul class="page-footer__list">
+            <li><a class="rs-number" href="tel:#">+91 98882 14441</a></li>
+            <li><a class="rs-mail" href="info@goldandpink.com">info@goldandpink.com</a></li>
+            <li>“Gold & Pink”, M.S. Costline, #60 Plot No: 17 Kabaleshwarar Nagar, Neelangarai, East Coast
+              Road,Neelangarai, Chennai,India 600 041
+            </li>
+          </ul>
+        </div>
+        <!--           end page-footer__contacts           /-->
+        <!--           ¬ page-footer__instagram           /-->
+        <div class="col-sm-6 col-md-4 col-lg-3 page-footer__intstagram">
+          <h4 class="page-footer__title">instagram</h4>
+          <div class="instagram-top-list cf"><a href="#"><img src="assets/img/upload/instagram_1.jpg" alt="#"></a><a
+              href="#"><img src="assets/img/upload/instagram_2.jpg" alt="#"></a><a href="#"><img
+                src="assets/img/upload/instagram_3.jpg" alt="#"></a><a href="gold and pink chennai"><img
+                src="assets/img/upload/instagram_4.jpg" alt="#"></a><a href="gold and pink chennai"><img
+                src="assets/img/upload/instagram_5.jpg" alt="#"></a><a href="gold and pink chennai"><img
+                src="assets/img/upload/instagram_6.jpg" alt="gold and pink chennai"></a>
+          </div>
+        </div>
+        <!--           end page-footer__instagram           /-->
+        <!--           ¬ page-footer_Facebook           /-->
+        <div class="col-sm-6 col-md-4 col-lg-3 page-footer__facebook">
+          <h4 class="page-footer__title">Facebook</h4>
+          <ul class="facebook-posts page-footer__list">
+            <li><i class="fa fa-facebook"></i>
+              <p>That is a facebook post sample. Make sure you are following us <a class="link"
+                  href="https://www.instagram.com/goldandpinkclinic">@Gold&Pink</a></p><a class="date-twit" href="#">
+                <time datetime="2023-06-26">26 June 2023</time></a>
+            </li>
+            <li><i class="fa fa-facebook"></i>
+              <p>That is an another example of a Facebook post.</p><a class="date-twit" href="#">
+                <time datetime="2023-06-26">26 June 2023</time></a>
+            </li>
+          </ul>
+        </div>
+        <!--           end page-footer__twitter           /-->
+        <!--           ¬ page-footer__tags           /-->
+        <div class="col-sm-6 col-md-12 col-lg-3 page-footer__tags">
+          <h4 class="page-footer__title">Tags</h4>
+          <ul class="blog-tags cf blog-tags--footer">
+            <li><a href="#">Hair</a></li>
+            <li><a href="#">Skin</a></li>
+            <li><a href="#">Nails</a></li>
+            <li><a href="#">Face</a></li>
+            <li><a href="#">Lashes</a></li>
+            <li><a href="#">Gold&Pink</a></li>
+            <li><a href="#">Chennai</a></li>
+          </ul>
+        </div>
+        <!--           end page-footer__tags           /-->
+      </div>
+    </div>
+    <div class="page-footer__copyright">
+      <div class="container">© 2022 Gold & Pink — All rights reserved.</div>
+    </div>
+  </footer>
+  <!--           = lightbox gallery           /-->
+  <div class="blueimp-gallery blueimp-gallery-controls" id="blueimp-gallery">
+    <div class="slides"></div><a class="prev" href="#"></a><a class="next" href="#"></a><a class="close" href="#"></a>
+  </div>
+  <!--           end lightbox gallery           /-->
+  <!--         = popup reservation form         *-->
+  <div class="modal fade" id="modal-inquiry">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-content-centered">
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">×</span></button>
+          <section class="modal-body">
+            <div class="hr-heading">
+              <h2 class="h1">Reservation</h2>
+            </div>
+            <form class="booking-form js-form-booking" action="#" method="POST" autocomplete="off">
+              <div class="row row-sm">
+                <div class="form-group col-xs-12">
+                  <label class="label-control">Your name <span class="label-warn">*</span></label>
+                  <input class="form-control" type="text" name="name" required>
+                </div>
+                <div class="form-group col-xs-12">
+                  <label class="label-control">Your e-mail <span class="label-warn">*</span></label>
+                  <input class="form-control" type="email" name="email" required>
+                </div>
+                <!--         datepicker/clockpicker         *-->
+                <div class="form-group col-xs-12">
+                  <div class="row row-sm input-daterange">
+                    <div class="form-group col-xs-6">
+                      <label class="label-control">date from <span class="label-warn">*</span></label>
+                      <input class="form-control datepicker" data-date-format="mm/dd/yyyy" name="date_from" required>
+                    </div>
+                    <div class="form-group col-xs-6">
+                      <label class="label-control">date to <span class="label-warn">*</span></label>
+                      <input class="form-control datepicker" data-date-format="mm/dd/yyyy" name="date_to" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-xs-12">
+                  <div class="row row-sm">
+                    <div class="form-group col-xs-6">
+                      <label class="label-control">time <span class="label-warn">*</span></label>
+                      <input class="form-control clockpicker js-input-time" type="text" name="time_from" required>
+                    </div>
+                    <div class="form-group col-xs-6">
+                      <label class="label-control">time <span class="label-warn">*</span></label>
+                      <input class="form-control clockpicker js-input-time" type="text" name="time_to" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-xs-12">
+                  <label class="label-control"># people</label>
+                  <div class="select-reserved">
+                    <div class="row row-sm">
+                      <div class="form-group col col-xs-6">
+                        <!--         .number-of-reversed         *-->
+                        <select class="js-select-reserved">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                        </select>
+                      </div>
+                      <div class="form-group col col-xs-6">
+                        <input class="select-reserved__check js-reserved-check" id="mdCheckReset" type="checkbox">
+                        <label for="mdCheckReset"><i class="fa fa-check"></i><span class="span">I have more than 6
+                            people in my party</span></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-xs-12">
+                  <label class="label-control">Special requests</label>
+                  <textarea class="form-control" rows="7" name="message"></textarea>
+                </div>
+              </div>
+              <div class="btn-wrap">
+                <button class="btn btn--darker" type="submit">make reservation</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--         end  popup reservation form         /-->
+  <!-- Google map init-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3gFKhVywUkygSxQEBdGVrI5-ZRrdjueA"></script>
+  <script src="assets/js/bundle.js"></script>
+</body>
+
 </html>
